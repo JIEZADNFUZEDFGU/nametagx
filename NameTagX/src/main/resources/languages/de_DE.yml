@@ -1,0 +1,72 @@
+# ====================================
+#    NameTagX - Deutsche Übersetzung
+# ====================================
+
+prefix: "&8[&6NameTagX&8]&r "
+
+general:
+  enabled: "&aNameTagX v{0} erfolgreich aktiviert!"
+  disabled: "&cNameTagX deaktiviert!"
+  reload-success: "&aKonfiguration erfolgreich neu geladen!"
+  reload-error: "&cFehler beim Neuladen der Konfiguration!"
+  no-permission: "&cDu hast keine Berechtigung diesen Befehl auszuführen!"
+
+player:
+  not-found: "&cSpieler nicht gefunden: &e{0}"
+  offline: "&cSpieler &e{0} &cist nicht online!"
+  tag-updated: "&aDein Tag wurde aktualisiert!"
+
+group:
+  not-found: "&cGruppe nicht gefunden: &e{0}"
+  loaded: "&7Gruppe geladen: &e{0} &7(Priorität: &e{1}&7)"
+  set-success: "&aTag von &e{0} &aauf Gruppe gesetzt: &e{1}"
+  reset-success: "&aTag von &e{0} &azurückgesetzt!"
+  list-header: "&6&m          &r &e&lNameTag Gruppen &6&m          "
+  list-format: "&e  ▪ &6{0} &7(Priorität: &e{1}&7)"
+  no-groups: "&cKeine Gruppen konfiguriert!"
+
+info:
+  header: "&6&m          &r &e&lTag: {0} &6&m          "
+  group: "&e  Gruppe: &6{0}"
+  prefix: "&e  Präfix: &r{0}"
+  suffix: "&e  Suffix: &r{0}"
+  color: "&e  Farbe: {0}"
+  priority: "&e  Priorität: &6{0}"
+  no-tag: "&cKein Tag für diesen Spieler gesetzt!"
+
+help:
+  header: "&6&m          &r &e&lNameTagX Hilfe &6&m          "
+  reload: "&e  /nametag reload &7- &fKonfiguration neu laden"
+  set: "&e  /nametag set <Spieler> <Gruppe> &7- &fTag setzen"
+  reset: "&e  /nametag reset <Spieler> &7- &fTag zurücksetzen"
+  list: "&e  /nametag list &7- &fGruppen auflisten"
+  info: "&e  /nametag info [Spieler] &7- &fTag-Informationen"
+  language: "&e  /nametag language <Sprache> &7- &fSprache ändern"
+
+commands:
+  usage-set: "&cVerwendung: &e/nametag set <Spieler> <Gruppe>"
+  usage-reset: "&cVerwendung: &e/nametag reset <Spieler>"
+  usage-info: "&cVerwendung: &e/nametag info [Spieler]"
+  usage-language: "&cVerwendung: &e/nametag language <Sprache>"
+  unknown-command: "&cUnbekannter Befehl! Gib &e/nametag help &cein für Hilfe."
+
+language:
+  changed: "&aSprache geändert zu: &e{0}"
+  current: "&eAktuelle Sprache: &6{0}"
+  available: "&eVerfügbare Sprachen: &6{0}"
+  not-found: "&cSprache nicht gefunden: &e{0}"
+  list-header: "&6&m          &r &e&lVerfügbare Sprachen &6&m          "
+
+errors:
+  config-load: "&cFehler beim Laden der Konfiguration!"
+  group-load: "&cFehler beim Laden der Gruppe: &e{0}"
+  tag-apply: "&cFehler beim Anwenden des Tags für: &e{0}"
+  permission-check: "&cFehler beim Überprüfen der Berechtigungen!"
+
+debug:
+  player-join: "&7[Debug] Spieler beigetreten: {0}"
+  player-quit: "&7[Debug] Spieler verlassen: {0}"
+  tag-applied: "&7[Debug] Tag angewendet auf {0}: Gruppe {1}"
+  permission-detected: "&7[Debug] Berechtigungsänderung erkannt für: {0}"
+  team-created: "&7[Debug] Team erstellt: {0}"
+  team-removed: "&7[Debug] Team entfernt: {0}"

@@ -1,0 +1,51 @@
+name: NameTagX
+version: 1.0.0
+main: fr.nametagx.NameTagX
+api-version: 1.21
+author: Natanael
+description: Professional nametag management plugin
+softdepend: [LuckPerms, PermissionsEx, GroupManager]
+
+commands:
+  nametag:
+    description: Main plugin commands
+    usage: /<command> [reload|set|reset|list|info]
+    aliases: [ntag, nt]
+
+permissions:
+  nametag.admin:
+    description: Full access to the plugin
+    default: op
+    children:
+      nametag.reload: true
+      nametag.set: true
+      nametag.reset: true
+
+  nametag.reload:
+    description: Reload the configuration
+    default: op
+
+  nametag.set:
+    description: Define a player's tag
+    default: op
+
+  nametag.reset:
+    description: Reset a player's tag
+    default: op
+
+  # Permissions des groupes (exemples)
+  nametag.group.owner:
+    description: Tag Owner
+    default: false
+
+  nametag.group.admin:
+    description: Tag Admin
+    default: false
+
+  nametag.group.moderator:
+    description: Tag Moderator
+    default: false
+
+  nametag.group.vip:
+    description: Tag VIP
+    default: false

@@ -1,0 +1,82 @@
+# ====================================
+#    NameTagX - Traduction Française
+# ====================================
+
+# Préfixe du plugin
+prefix: "&8[&6NameTagX&8]&r "
+
+# Messages généraux
+general:
+  enabled: "&aNameTagX v{0} activé avec succès!"
+  disabled: "&cNameTagX désactivé!"
+  reload-success: "&aConfiguration rechargée avec succès!"
+  reload-error: "&cErreur lors du rechargement de la configuration!"
+  no-permission: "&cVous n'avez pas la permission d'exécuter cette commande!"
+
+# Messages joueurs
+player:
+  not-found: "&cJoueur introuvable: &e{0}"
+  offline: "&cLe joueur &e{0} &cn'est pas en ligne!"
+  tag-updated: "&aVotre tag a été mis à jour!"
+
+# Messages groupes
+group:
+  not-found: "&cGroupe introuvable: &e{0}"
+  loaded: "&7Groupe chargé: &e{0} &7(priorité: &e{1}&7)"
+  set-success: "&aTag de &e{0} &adéfini sur le groupe: &e{1}"
+  reset-success: "&aTag de &e{0} &aréinitialisé!"
+  list-header: "&6&m          &r &e&lGroupes NameTag &6&m          "
+  list-format: "&e  ▪ &6{0} &7(priorité: &e{1}&7)"
+  no-groups: "&cAucun groupe configuré!"
+
+# Messages d'information
+info:
+  header: "&6&m          &r &e&lTag: {0} &6&m          "
+  group: "&e  Groupe: &6{0}"
+  prefix: "&e  Préfixe: &r{0}"
+  suffix: "&e  Suffixe: &r{0}"
+  color: "&e  Couleur: {0}"
+  priority: "&e  Priorité: &6{0}"
+  no-tag: "&cAucun tag défini pour ce joueur!"
+
+# Messages d'aide
+help:
+  header: "&6&m          &r &e&lNameTagX Aide &6&m          "
+  reload: "&e  /nametag reload &7- &fRecharger la configuration"
+  set: "&e  /nametag set <joueur> <groupe> &7- &fDéfinir un tag"
+  reset: "&e  /nametag reset <joueur> &7- &fRéinitialiser un tag"
+  list: "&e  /nametag list &7- &fListe des groupes"
+  info: "&e  /nametag info [joueur] &7- &fInformations sur un tag"
+  language: "&e  /nametag language <langue> &7- &fChanger la langue"
+
+# Messages commandes
+commands:
+  usage-set: "&cUsage: &e/nametag set <joueur> <groupe>"
+  usage-reset: "&cUsage: &e/nametag reset <joueur>"
+  usage-info: "&cUsage: &e/nametag info [joueur]"
+  usage-language: "&cUsage: &e/nametag language <langue>"
+  unknown-command: "&cCommande inconnue! Tapez &e/nametag help &cpour l'aide."
+
+# Messages langue
+language:
+  changed: "&aLangue changée en: &e{0}"
+  current: "&eLangue actuelle: &6{0}"
+  available: "&eLangues disponibles: &6{0}"
+  not-found: "&cLangue introuvable: &e{0}"
+  list-header: "&6&m          &r &e&lLangues Disponibles &6&m          "
+
+# Messages erreurs
+errors:
+  config-load: "&cErreur lors du chargement de la configuration!"
+  group-load: "&cErreur lors du chargement du groupe: &e{0}"
+  tag-apply: "&cErreur lors de l'application du tag pour: &e{0}"
+  permission-check: "&cErreur lors de la vérification des permissions!"
+
+# Messages de debug (si debug activé)
+debug:
+  player-join: "&7[Debug] Joueur connecté: {0}"
+  player-quit: "&7[Debug] Joueur déconnecté: {0}"
+  tag-applied: "&7[Debug] Tag appliqué à {0}: groupe {1}"
+  permission-detected: "&7[Debug] Changement de permission détecté pour: {0}"
+  team-created: "&7[Debug] Team créée: {0}"
+  team-removed: "&7[Debug] Team supprimée: {0}"

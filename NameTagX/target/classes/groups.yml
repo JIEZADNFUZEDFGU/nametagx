@@ -1,0 +1,69 @@
+# NameTagX Group Configuration
+#
+# Structure:
+# groups:
+# group_name:
+# priority: <number> (higher = priority)
+# prefix: "<text with color codes>"
+# suffix: "<text with color codes>"
+# color: <nickname color>
+# permission: <permission required>
+#
+# Color codes: §0-§f or & (e.g., §c = red, §a = green)
+# Available ChatColors:
+# WHITE, BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED,
+# DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA,
+# RED, LIGHT_PURPLE, YELLOW
+#
+# IMPORTANT: 16-character limit for prefix + suffix
+# (color codes do not count)
+
+groups:
+  owner:
+    priority: 100
+    prefix: "§c§l[OWNER] §c"
+    suffix: ""
+    color: RED
+    permission: nametag.group.owner
+
+  admin:
+    priority: 90
+    prefix: "§4[Admin] §4"
+    suffix: ""
+    color: DARK_RED
+    permission: nametag.group.admin
+
+  moderator:
+    priority: 80
+    prefix: "§3[Modo] §3"
+    suffix: ""
+    color: DARK_AQUA
+    permission: nametag.group.moderator
+
+  builder:
+    priority: 70
+    prefix: "§e[Builder] §e"
+    suffix: ""
+    color: YELLOW
+    permission: nametag.group.builder
+
+  vip_plus:
+    priority: 60
+    prefix: "§6[VIP+] §6"
+    suffix: " §6✦"
+    color: GOLD
+    permission: nametag.group.vipplus
+
+  vip:
+    priority: 50
+    prefix: "§a[VIP] §a"
+    suffix: ""
+    color: GREEN
+    permission: nametag.group.vip
+
+  player:
+    priority: 1
+    prefix: "§7"
+    suffix: ""
+    color: GRAY
+    # No permission = everyone has this group by default

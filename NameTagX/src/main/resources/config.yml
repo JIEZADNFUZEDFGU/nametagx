@@ -1,0 +1,52 @@
+# ====================================
+#       NameTagX - Configuration
+# ====================================
+
+# Plugin language
+# Available languages: fr_FR, en_US, es_ES, de_DE
+# You can create your own language files in languages/
+language: "en_US"
+
+# General plugin settings
+settings:
+  # Enable debug messages in the console
+  debug: false
+
+  # Automatic tag update when permissions change
+  auto-update-on-permission-change: true
+
+  # Delay (in ticks) before the update after a permission change
+  # 20 ticks = 1 second
+  update-delay: 5
+
+  # Enable automatic detection of permissions plugins
+  # (LuckPerms, PermissionsEx, GroupManager)
+  auto-detect-permission-plugins: true
+
+# Plugin messages
+messages:
+  prefix: "&8[&6NameTagX&8]&r "
+  reload-success: "&aConfiguration successfully reloaded!"
+  reload-error: "&cError reloading configuration!"
+  no-permission: "&cYou do not have permission!"
+  player-not-found: "&cPlayer not found!"
+  group-not-found: "&cGroup not found: &e{group}"
+  tag-set: "&aTag of &e{player} &adefined on: &e{group}"
+  tag-reset: "&aTag of &e{player} &areset!"
+
+# Advanced options
+advanced:
+  # Use the main scoreboard or create a new one
+  # (true, recommended for compatibility)
+  use-main-scoreboard: true
+
+  # Clean up old teams at startup
+  cleanup-old-teams: true
+
+  # Prefix of teams created by the plugin
+  team-prefix: "ntag_"
+
+  # Team name format: {prefix}{priority}_{group}
+
+  # If false, use: {prefix}{priority}_{player}
+  team-name-use-group: true

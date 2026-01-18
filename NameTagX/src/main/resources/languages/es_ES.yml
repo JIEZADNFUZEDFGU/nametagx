@@ -1,0 +1,72 @@
+# ====================================
+#    NameTagX - Traducción Española
+# ====================================
+
+prefix: "&8[&6NameTagX&8]&r "
+
+general:
+  enabled: "&a¡NameTagX v{0} activado con éxito!"
+  disabled: "&c¡NameTagX desactivado!"
+  reload-success: "&a¡Configuración recargada con éxito!"
+  reload-error: "&c¡Error al recargar la configuración!"
+  no-permission: "&c¡No tienes permiso para ejecutar este comando!"
+
+player:
+  not-found: "&cJugador no encontrado: &e{0}"
+  offline: "&c¡El jugador &e{0} &cno está en línea!"
+  tag-updated: "&a¡Tu etiqueta ha sido actualizada!"
+
+group:
+  not-found: "&cGrupo no encontrado: &e{0}"
+  loaded: "&7Grupo cargado: &e{0} &7(prioridad: &e{1}&7)"
+  set-success: "&aEtiqueta de &e{0} &aestablecida al grupo: &e{1}"
+  reset-success: "&a¡Etiqueta de &e{0} &arestablecida!"
+  list-header: "&6&m          &r &e&lGrupos NameTag &6&m          "
+  list-format: "&e  ▪ &6{0} &7(prioridad: &e{1}&7)"
+  no-groups: "&c¡No hay grupos configurados!"
+
+info:
+  header: "&6&m          &r &e&lEtiqueta: {0} &6&m          "
+  group: "&e  Grupo: &6{0}"
+  prefix: "&e  Prefijo: &r{0}"
+  suffix: "&e  Sufijo: &r{0}"
+  color: "&e  Color: {0}"
+  priority: "&e  Prioridad: &6{0}"
+  no-tag: "&c¡No hay etiqueta establecida para este jugador!"
+
+help:
+  header: "&6&m          &r &e&lAyuda NameTagX &6&m          "
+  reload: "&e  /nametag reload &7- &fRecargar configuración"
+  set: "&e  /nametag set <jugador> <grupo> &7- &fEstablecer etiqueta"
+  reset: "&e  /nametag reset <jugador> &7- &fRestablecer etiqueta"
+  list: "&e  /nametag list &7- &fListar grupos"
+  info: "&e  /nametag info [jugador] &7- &fInformación de etiqueta"
+  language: "&e  /nametag language <idioma> &7- &fCambiar idioma"
+
+commands:
+  usage-set: "&cUso: &e/nametag set <jugador> <grupo>"
+  usage-reset: "&cUso: &e/nametag reset <jugador>"
+  usage-info: "&cUso: &e/nametag info [jugador]"
+  usage-language: "&cUso: &e/nametag language <idioma>"
+  unknown-command: "&c¡Comando desconocido! Escribe &e/nametag help &cpara ayuda."
+
+language:
+  changed: "&aIdioma cambiado a: &e{0}"
+  current: "&eIdioma actual: &6{0}"
+  available: "&eIdiomas disponibles: &6{0}"
+  not-found: "&cIdioma no encontrado: &e{0}"
+  list-header: "&6&m          &r &e&lIdiomas Disponibles &6&m          "
+
+errors:
+  config-load: "&c¡Error al cargar la configuración!"
+  group-load: "&c¡Error al cargar el grupo: &e{0}"
+  tag-apply: "&c¡Error al aplicar etiqueta para: &e{0}"
+  permission-check: "&c¡Error al verificar permisos!"
+
+debug:
+  player-join: "&7[Debug] Jugador conectado: {0}"
+  player-quit: "&7[Debug] Jugador desconectado: {0}"
+  tag-applied: "&7[Debug] Etiqueta aplicada a {0}: grupo {1}"
+  permission-detected: "&7[Debug] Cambio de permiso detectado para: {0}"
+  team-created: "&7[Debug] Equipo creado: {0}"
+  team-removed: "&7[Debug] Equipo eliminado: {0}"

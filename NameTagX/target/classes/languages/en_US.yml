@@ -1,0 +1,82 @@
+# ====================================
+#    NameTagX - English Translation
+# ====================================
+
+# Plugin prefix
+prefix: "&8[&6NameTagX&8]&r "
+
+# General messages
+general:
+  enabled: "&aNameTagX v{0} successfully enabled!"
+  disabled: "&cNameTagX disabled!"
+  reload-success: "&aConfiguration reloaded successfully!"
+  reload-error: "&cError while reloading configuration!"
+  no-permission: "&cYou don't have permission to execute this command!"
+
+# Player messages
+player:
+  not-found: "&cPlayer not found: &e{0}"
+  offline: "&cPlayer &e{0} &cis not online!"
+  tag-updated: "&aYour tag has been updated!"
+
+# Group messages
+group:
+  not-found: "&cGroup not found: &e{0}"
+  loaded: "&7Group loaded: &e{0} &7(priority: &e{1}&7)"
+  set-success: "&aTag of &e{0} &aset to group: &e{1}"
+  reset-success: "&aTag of &e{0} &areset!"
+  list-header: "&6&m          &r &e&lNameTag Groups &6&m          "
+  list-format: "&e  ▪ &6{0} &7(priority: &e{1}&7)"
+  no-groups: "&cNo groups configured!"
+
+# Info messages
+info:
+  header: "&6&m          &r &e&lTag: {0} &6&m          "
+  group: "&e  Group: &6{0}"
+  prefix: "&e  Prefix: &r{0}"
+  suffix: "&e  Suffix: &r{0}"
+  color: "&e  Color: {0}"
+  priority: "&e  Priority: &6{0}"
+  no-tag: "&cNo tag set for this player!"
+
+# Help messages
+help:
+  header: "&6&m          &r &e&lNameTagX Help &6&m          "
+  reload: "&e  /nametag reload &7- &fReload configuration"
+  set: "&e  /nametag set <player> <group> &7- &fSet a tag"
+  reset: "&e  /nametag reset <player> &7- &fReset a tag"
+  list: "&e  /nametag list &7- &fList groups"
+  info: "&e  /nametag info [player] &7- &fTag information"
+  language: "&e  /nametag language <lang> &7- &fChange language"
+
+# Command messages
+commands:
+  usage-set: "&cUsage: &e/nametag set <player> <group>"
+  usage-reset: "&cUsage: &e/nametag reset <player>"
+  usage-info: "&cUsage: &e/nametag info [player]"
+  usage-language: "&cUsage: &e/nametag language <lang>"
+  unknown-command: "&cUnknown command! Type &e/nametag help &cfor help."
+
+# Language messages
+language:
+  changed: "&aLanguage changed to: &e{0}"
+  current: "&eCurrent language: &6{0}"
+  available: "&eAvailable languages: &6{0}"
+  not-found: "&cLanguage not found: &e{0}"
+  list-header: "&6&m          &r &e&lAvailable Languages &6&m          "
+
+# Error messages
+errors:
+  config-load: "&cError loading configuration!"
+  group-load: "&cError loading group: &e{0}"
+  tag-apply: "&cError applying tag for: &e{0}"
+  permission-check: "&cError checking permissions!"
+
+# Debug messages (if debug enabled)
+debug:
+  player-join: "&7[Debug] Player joined: {0}"
+  player-quit: "&7[Debug] Player quit: {0}"
+  tag-applied: "&7[Debug] Tag applied to {0}: group {1}"
+  permission-detected: "&7[Debug] Permission change detected for: {0}"
+  team-created: "&7[Debug] Team created: {0}"
+  team-removed: "&7[Debug] Team removed: {0}"
