@@ -1,0 +1,82 @@
+# ====================================
+#    NameTagX - 简体中文译文
+# ====================================
+
+# 插件前缀
+prefix: "&8[&6NameTagX&8]&r "
+
+# 全局消息
+general:
+  enabled: "&aNameTagX v{0} 启用完毕!"
+  disabled: "&cNameTagX 已关闭!"
+  reload-success: "&配置已重载!"
+  reload-error: "&c重载配置时出现错误!"
+  no-permission: "&c你没有权限使用这个命令!"
+
+# 玩家消息
+player:
+  not-found: "&c不存在这个名字的玩家: &e{0}"
+  offline: "&c玩家 &e{0} &c没有在线!"
+  tag-updated: "&a你的称号已更新!"
+
+# 组消息
+group:
+  not-found: "&c不存在这个名字的组: &e{0}"
+  loaded: "&7组别已载入: &e{0} &7(优先级: &e{1}&7)"
+  set-success: "&a已将称号 &e{0} &a设置给组: &e{1}"
+  reset-success: "&a已重置组别 &e{0} &a的称号!"
+  list-header: "&6&m          &r &e&l称号组 &6&m          "
+  list-format: "&e  ▪ &6{0} &7(优先级: &e{1}&7)"
+  no-groups: "&c配置中还未设置任何称号组!"
+
+# 信息提示
+info:
+  header: "&6&m          &r &e&l称号: {0} &6&m          "
+  group: "&e  组别: &6{0}"
+  prefix: "&e  前缀: &r{0}"
+  suffix: "&e  后缀: &r{0}"
+  color: "&e  颜色: {0}"
+  priority: "&e  优先级: &6{0}"
+  no-tag: "&c这个玩家没有设置任何称号!"
+
+# 帮助消息
+help:
+  header: "&6&m          &r &e&lNameTagX 命令帮助 &6&m          "
+  reload: "&e  /nametag reload &7- &f重载配置文件"
+  set: "&e  /nametag set <玩家名称> <称号组> &7- &f为玩家设置称号"
+  reset: "&e  /nametag reset <玩家名称> &7- &f清除玩家设置的称号"
+  list: "&e  /nametag list &7- &f浏览称号组"
+  info: "&e  /nametag info [玩家名称] &7- &f查看玩家使用的称号信息"
+  language: "&e  /nametag language <语言代码> &7- &f更换插件语言"
+
+# 命令消息
+commands:
+  usage-set: "&c命令用法: &e/nametag set <玩家名称> <称号组>"
+  usage-reset: "&c命令用法: &e/nametag reset <玩家名称>"
+  usage-info: "&c命令用法: &e/nametag info [玩家名称]"
+  usage-language: "&c命令用法: &e/nametag language <语言代码>"
+  unknown-command: "&c未知命令! 请输入 &e/nametag help &c浏览帮助菜单."
+
+# 语言消息
+language:
+  changed: "&a语言已切换为: &e{0}"
+  current: "&e当前使用语言: &6{0}"
+  available: "&e可用语言列表: &6{0}"
+  not-found: "&c未找到语言: &e{0}"
+  list-header: "&6&m          &r &e&l可用语言列表 &6&m          "
+
+# 错误消息
+errors:
+  config-load: "&c载入配置时遇到错误!"
+  group-load: "&c载入称号组 &e{0} &c时遇到错误"
+  tag-apply: "&c为玩家 &e{0} &c设置称号时遇到错误"
+  permission-check: "&c检查权限时遇到错误!"
+
+# 调试消息（若启用调试功能）
+debug:
+  player-join: "&7[调试信息] 玩家加入: {0}"
+  player-quit: "&7[调试信息] 玩家退出: {0}"
+  tag-applied: "&7[调试信息] 玩家 {0} 获得称号: 对应组别 {1}"
+  permission-detected: "&7[调试信息] 检测到权限变更: {0}"
+  team-created: "&7[调试信息] 已创建队伍: {0}"
+  team-removed: "&7[调试信息] 已删除队伍: {0}"
